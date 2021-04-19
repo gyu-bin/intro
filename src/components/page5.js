@@ -11,10 +11,11 @@ class Page5 extends Component {
         </ButtonBack>
         <div className="container-fluid">
           <div className="page-5-content">
-            <h4>오늘에 만족하지 않고
-            <br />더 나은 내일을 위해
-            <br />항상 스스로를 계발하는
-            <br />개발자가 되고 싶습니다.</h4>
+            <h4>돈 많이 주시면
+            <br />더 열심히
+            <br />일하겠습니다
+            {/* <br />개발자가 되고 싶습니다. */}
+            </h4>
             <br />
             <br />
             {/* <p className="running-emoji">  </p> */}

@@ -8,7 +8,7 @@ class Page2 extends Component {
       strings: [
         "HTML5", "CSS", "Vue.js", "React", "JavaScript", "ES6", "jQuery", "Spring"
       ],
-      typeSpeed: 150,
+      typeSpeed: 300,
       startDelay: 500,
       backSpeed: 100,
       backDelay: 1300,
