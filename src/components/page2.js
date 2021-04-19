@@ -6,9 +6,9 @@ class Page2 extends Component {
   componentDidMount() {
     const options = {
       strings: [
-        "HTML5", "CSS", "Vue.js", "React", "JavaScript", "ES6", "jQuery", "Spring"
+        "HTML5", "CSS", "React", "JavaScript", "jQuery", "Spring"
       ],
-      typeSpeed: 300,
+      typeSpeed: 50,
       startDelay: 500,
       backSpeed: 100,
       backDelay: 1300,
@@ -29,7 +29,7 @@ class Page2 extends Component {
         <div className="container-fluid">
           <div className="page-2-content">
             <h4 className="page-2-h4">저는 &nbsp;
-            <strong id="typed" style={{ whiteSpace: "pre" }} ref={(el) => { this.el = el; }}></strong>할 줄 아는 <strong></strong>프론트엔드 개발자입니다.</h4>
+            <strong id="typed" style={{ whiteSpace: "pre", fontSize: "60px" }} ref={(el) => { this.el = el; }}></strong>할 줄 아는 <strong></strong>프론트엔드 개발자입니다.</h4>
           </div>
         </div>
         <ButtonNext className="to-bottom">

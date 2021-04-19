@@ -27,6 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <CarouselProvider
           visibleSlides={1} //한 번에 표시 할 슬라이드 수입니다. 이 숫자는 <= totalSlides 여야합니다.
           orientation="vertical"
